@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/bmg.jpg");
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+} 
+header{
+    margin: 0;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#logo,#logo1{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 50%;
+    filter: sepia(1);
+
+}
+
+#title{
+
+    font-size: 51px;
+    font-style: oblique;
+    font-variant: all-petite-caps;
+    color: #fff;  
+    padding: 20px;
+    
+}
+
+.main{
+
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+.signup_company{
+    
+    float:left;
+    padding: 80px;
+    background: rgba(0, 0, 0, 0.3);
+   
+}
+
+.signup_user{
+    
+    float:right;
+    padding: 80px;
+    background: rgba(0, 0, 0, 0.3);
+
+  
+}
+table tr td{
+    color:#fff;
+    font-size: 20px;
+    padding: 10px;
+    backdrop-filter: blur(1px);
+}
+
+h1{
+    color: antiquewhite;
+    font-family: 'Calistoga', cursive;
+    word-spacing: 0.2em;
+    letter-spacing: 0.1em;
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+    padding: 1px;
+    background-image: linear-gradient(rgba(341,131,-92,132),rgba(14,174,255,1));
+    border-radius: 4px;
+    border: 1px solid;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    border: 3px solid #4fc3f7;
+    background: #fff;
+    color: #4fc3f7;
+    transform: scale(0.9);
+}
+
+
+

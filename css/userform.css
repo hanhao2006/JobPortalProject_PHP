@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+
+*{
+    font-family: 'Acme', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+    height: 150px;
+    background: #4FC3F7;
+    padding-top: 30px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+#title {
+    font-size: 51px;
+    font-style: oblique;
+    font-variant: all-petite-caps;
+    color: #fff;
+    display: inline;
+    margin: 0;
+    justify-self: self-end;
+    margin-right: 100px;
+}
+
+#logout {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    letter-spacing: 1px;
+    border: 2px solid;
+    border-radius: 6px;
+}
+
+#logout:hover{
+    border: 2px solid #4fc3f7;
+    background: #fff;
+    color: #4fc3f7;
+}
+
+
+.showjob {
+    border: 1px solid;
+    margin: 10px;
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 280px;
+}
+
+.username {
+
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.28)
+}
+
+ul li {
+    margin: 20px 0;
+    list-style: none;
+}
+
+header{
+    display: grid;
+    grid-template-columns: max-content 1fr max-content max-content;
+    grid-column-gap: 3em;
+    justify-items: center;
+    padding: 30px;
+    height: max-content;
+    align-items: center;
+}
+
+.userinfo{
+    background: #80DEEA;
+    grid-column: 1;
+}
+
+#apply {
+    margin-left: 50px;
+}
+
+.getjob{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    justify-items: center;
+    padding: 40px;
+    grid-column: 2;
+}
+
+
+#search {
+    display: inline-block;
+    margin-left: 183px;
+    color: blueviolet;
+    font-size: 25px;
+    padding-right: 47px;
+}
+
+#search input{
+    padding: 12px 13px;
+    border-radius: 40px;
+    border: 0;
+    margin: 0 10px;
+    width: 230px;
+    font-size: 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.text{
+    color:#263238;
+    border-bottom: 2px solid;
+}
+
+form{
+    padding: 10px 30px;
+}

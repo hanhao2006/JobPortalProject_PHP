@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth|Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amaranth|Courgette|Hind+Guntur&display=swap');
+
+body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;;
+}
+
+header{
+    margin: 0;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 50%;
+    filter: sepia(1);
+}
+#title{
+    font-size: 51px;
+    font-style: oblique;
+    font-variant: all-petite-caps;
+    color: #fff;  
+    padding: 20px;
+    font-family: 'Hind Guntur', sans-serif;
+}
+#logout {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    letter-spacing: 1px;
+    border: 2px solid;
+    border-radius: 6px;
+    margin-right: 185px
+}
+#main_title{
+    text-align: center;
+    font-family: 'Hind Guntur', sans-serif;
+    word-spacing: 1em;
+    font-size: 27px;
+    color: floralwhite;
+
+}
+.post_job{
+    overflow: hidden;
+   
+}
+
+table{
+    margin: auto;
+}
+
+.post{
+    border: 2px solid chocolate;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 17px;
+    font-family: 'Amaranth', sans-serif;
+
+}
+.post_text{
+    text-decoration: underline;
+    color: #a24343f0;
+    padding-right: 27px;
+    margin-bottom: 10px;
+    display: inline-block;
+    letter-spacing: 0.1em;
+    word-spacing: 0.5em;
+}
+
+
+
+
